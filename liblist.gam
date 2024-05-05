@@ -1,0 +1,14 @@
+// Valve Game Info file
+//  These are key/value pairs.  Certain mods will use different settings.
+//
+game "Throwdown GoldSrc"
+startmap "td0a0"
+trainmap "td0a0"
+mpentity "info_player_deathmatch"
+gamedll "dlls\td.dll"
+gamedll_linux "dlls/td.so"
+gamedll_osx "dlls/td.dylib"
+secure "1"
+type "singleplayer_only"
+animated_title "0"
+hd_background "0"
