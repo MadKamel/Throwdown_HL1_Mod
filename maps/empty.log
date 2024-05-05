@@ -55,7 +55,7 @@ Using Wadfile: /program files (x86)/steam/steamapps/common/Half-Life/valve/halfl
 
 Wad files required to run the map: "halflife.wad;"
 Texture usage is at 0.07 mb (of 32.00 mb MAX)
-0.02 seconds elapsed
+0.01 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -125,12 +125,12 @@ edges              69/256000       276/1024000  ( 0.0%)
 texdata          [variable]        136/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]        448/2097152  ( 0.0%)
+entdata          [variable]        674/2097152  ( 0.0%)
 * AllocBlock        1/64             0/0        ( 1.6%)
 3 textures referenced
-=== Total BSP file data space used: 3512 bytes ===
+=== Total BSP file data space used: 3738 bytes ===
 Wad files required to run the map: "halflife.wad;"
-0.10 seconds elapsed
+0.09 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -170,7 +170,7 @@ LeafThread:
  (0.00 seconds)
 average leafs visible: 1
 g_visdatasize:1  compressed from 1
-0.02 seconds elapsed
+0.01 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -182,8 +182,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" -extra "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\empty" 
-Arguments: -extra "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\empty" -low 
+Command line: "C:/Program Files/J.A.C.K./halflife/hlrad.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\empty" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\empty" -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -200,7 +200,7 @@ priority             [               Low ] [            Normal ]
 
 fast rad             [               off ] [               off ]
 vismatrix algorithm  [            Sparse ] [            Sparse ]
-oversampling (-extra)[                on ] [               off ]
+oversampling (-extra)[               off ] [               off ]
 bounces              [                 8 ] [                 8 ]
 ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
 light limit threshold[           188.000 ] [           188.000 ]
@@ -264,9 +264,9 @@ Create Patches : 270 base patches
 1 light styles
 
 FindFacePositions:
- (0.01 seconds)
+ (0.02 seconds)
 BuildFacelights:
- (0.04 seconds)
+ (0.01 seconds)
 BuildVisLeafs:
  (0.00 seconds)
 visibility matrix   :   0.0 megs
@@ -297,7 +297,7 @@ AddPatchLights:
  (0.02 seconds)
 FinalLightFace:
  (0.00 seconds)
-0.18 seconds elapsed
+0.14 seconds elapsed
 
 -----   END   hlrad -----
 
