@@ -187,12 +187,14 @@
 {
 "classname" "weapon_crowbar"
 "delay" "0"
-"angles" "0 0 0"
+"angles" "0 90 0"
 "origin" "-112 0 32"
 }
 {
-"classname" "trigger_print"
-"message" "trigger_print works!"
+"classname" "trigger_once"
+"delay" "0"
+"sounds" "0"
+"target" "trigprint"
 {
 ( -128 -384 160 ) ( -128 -384 -32 ) ( -128 -256 160 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 0 -256 160 ) ( 0 -256 -32 ) ( 0 -384 160 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -203,8 +205,8 @@
 }
 }
 {
-"classname" "trigger_auto"
-"triggerstate" "0"
-"delay" "0"
-"origin" "236 53 36"
+"classname" "trigger_print"
+"message" "You've entered a trigger_print."
+"targetname" "trigprint"
+"origin" "-64 -320 96"
 }

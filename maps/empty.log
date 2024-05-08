@@ -48,7 +48,7 @@ Wadinclude list :
 CreateBrush:
  (0.00 seconds)
 CSGBrush:
- (0.01 seconds)
+ (0.00 seconds)
 
 Using Wadfile: /program files (x86)/steam/steamapps/common/Half-Life/valve/halflife.wad
  - Contains 7 used textures, 87.50 percent of map (3116 textures in wad)
@@ -57,7 +57,7 @@ Using Wadfile: /program files (x86)/steam/steamapps/common/Half-Life/valve/xeno.
 
 Wad files required to run the map: "halflife.wad;xeno.wad;"
 Texture usage is at 0.13 mb (of 32.00 mb MAX)
-0.02 seconds elapsed
+0.03 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -99,7 +99,7 @@ remove hull 2       [     off ] [     off ]
 
 SolidBSP [hull 0] 62 (0.00 seconds)
 BSP generation successful, writing portal file 'C:\program files (x86)\steam\steamapps\common\Half-Life\throwdown_hl\maps\empty.prt'
-SolidBSP [hull 1] 58 (0.00 seconds)
+SolidBSP [hull 1] 58 (0.02 seconds)
 SolidBSP [hull 2] 59 (0.00 seconds)
 SolidBSP [hull 3] 58 (0.00 seconds)
 Reduced 72 clipnodes to 72
@@ -127,12 +127,12 @@ edges             168/256000       672/1024000  ( 0.1%)
 texdata          [variable]        356/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]        845/2097152  ( 0.0%)
+entdata          [variable]        899/2097152  ( 0.0%)
 * AllocBlock        1/64             0/0        ( 1.6%)
 8 textures referenced
-=== Total BSP file data space used: 9817 bytes ===
+=== Total BSP file data space used: 9871 bytes ===
 Wad files required to run the map: "halflife.wad;xeno.wad;"
-0.09 seconds elapsed
+0.11 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -268,14 +268,14 @@ Create Patches : 341 base patches
 FindFacePositions:
  (0.02 seconds)
 BuildFacelights:
- (0.02 seconds)
+ (0.01 seconds)
 BuildVisLeafs:
- (0.00 seconds)
+ (0.02 seconds)
 visibility matrix   :   0.0 megs
 MakeScales:
- (0.01 seconds)
+ (0.00 seconds)
 Transfer Lists :       72124 :    72.12k transfers
-       Indices :       18968 :    18.52k bytes
+       Indices :       18616 :    18.18k bytes
           Data :      145271 :   141.87k bytes
 Bounce 1 GatherLight:
  (0.00 seconds)
@@ -288,7 +288,7 @@ Bounce 4 GatherLight:
 Bounce 5 GatherLight:
  (0.00 seconds)
 Bounce 6 GatherLight:
- (0.00 seconds)
+ (0.02 seconds)
 Bounce 7 GatherLight:
  (0.00 seconds)
 Bounce 8 GatherLight:
@@ -299,7 +299,7 @@ AddPatchLights:
  (0.02 seconds)
 FinalLightFace:
  (0.00 seconds)
-0.26 seconds elapsed
+0.19 seconds elapsed
 
 -----   END   hlrad -----
 

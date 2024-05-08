@@ -1,0 +1,7 @@
+// .fgd for Throwdown.
+
+@PointClass = point_print
+[
+	targetname(target_source) : "Name" : ""
+	message(string) : "Message" : "You've activated a point_print."
+]
