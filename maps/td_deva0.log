@@ -57,7 +57,7 @@ Using Wadfile: /program files (x86)/steam/steamapps/common/Half-Life/valve/xeno.
 
 Wad files required to run the map: "halflife.wad;xeno.wad;"
 Texture usage is at 0.13 mb (of 32.00 mb MAX)
-0.02 seconds elapsed
+0.03 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -127,12 +127,12 @@ edges             168/256000       672/1024000  ( 0.1%)
 texdata          [variable]        356/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]        899/2097152  ( 0.0%)
+entdata          [variable]        888/2097152  ( 0.0%)
 * AllocBlock        1/64             0/0        ( 1.6%)
 8 textures referenced
-=== Total BSP file data space used: 9867 bytes ===
+=== Total BSP file data space used: 9856 bytes ===
 Wad files required to run the map: "halflife.wad;xeno.wad;"
-0.13 seconds elapsed
+0.11 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -266,9 +266,9 @@ Create Patches : 341 base patches
 1 light styles
 
 FindFacePositions:
- (0.01 seconds)
+ (0.02 seconds)
 BuildFacelights:
- (0.09 seconds)
+ (0.06 seconds)
 BuildVisLeafs:
  (0.00 seconds)
 visibility matrix   :   0.0 megs
@@ -296,10 +296,10 @@ Bounce 8 GatherLight:
 CreateTriangulations:
  (0.00 seconds)
 AddPatchLights:
- (0.05 seconds)
+ (0.02 seconds)
 FinalLightFace:
  (0.00 seconds)
-0.27 seconds elapsed
+0.23 seconds elapsed
 
 -----   END   hlrad -----
 

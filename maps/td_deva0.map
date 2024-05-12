@@ -7,7 +7,7 @@
 "MaxRange" "4096"
 "sounds" "1"
 "mapversion" "220"
-"wad" "/program files (x86)/steam/steamapps/common/Half-Life/valve/halflife.wad;/program files (x86)/steam/steamapps/common/Half-Life/valve/liquids.wad;/program files (x86)/steam/steamapps/common/Half-Life/valve/xeno.wad;/program files (x86)/steam/steamapps/common/Half-Life/valve/decals.wad;/Program Files/J.A.C.K/halflife/zhlt.wad"
+"wad" "/program files (x86)/steam/steamapps/common/Half-Life/valve/halflife.wad;/program files (x86)/steam/steamapps/common/Half-Life/valve/liquids.wad;/program files (x86)/steam/steamapps/common/Half-Life/valve/xeno.wad;/program files (x86)/steam/steamapps/common/Half-Life/valve/decals.wad;/Program Files/J.A.C.K/halflife/zhlt.wad;/Program Files (x86)/Steam/steamapps/common/Half-Life/throwdown_hl/throwdown.wad"
 "_generator" "J.A.C.K. 1.1.3773 Freeware (vpHalfLife)"
 {
 ( 256 -256 160 ) ( 256 -256 0 ) ( 256 256 160 ) C1A0_WX [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -185,10 +185,9 @@
 "origin" "0 0 0"
 }
 {
-"classname" "weapon_crowbar"
-"delay" "0"
+"classname" "weapon_leadpipe"
 "angles" "0 90 0"
-"origin" "-112 0 32"
+"origin" "-112 0 40"
 }
 {
 "classname" "trigger_once"

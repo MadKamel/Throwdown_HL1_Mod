@@ -5,3 +5,5 @@
 	targetname(target_source) : "Name" : ""
 	message(string) : "Message" : "You've activated a point_print."
 ]
+
+@PointClass base(Weapon, Targetx) studio("models/w_crowbar.mdl") = weapon_leadpipe : "Lead Pipe" []
