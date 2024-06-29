@@ -2,7 +2,7 @@
 //  These are key/value pairs.  Certain mods will use different settings.
 //
 game "Throwdown GoldSrc"
-startmap "td_devb0"
+startmap "td_vis_a0"
 trainmap "td_deva0"
 mpentity "info_player_deathmatch"
 gamedll "dlls\hl.dll"

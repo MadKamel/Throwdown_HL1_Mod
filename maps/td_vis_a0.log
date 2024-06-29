@@ -48,16 +48,16 @@ Wadinclude list :
 CreateBrush:
  (0.00 seconds)
 CSGBrush:
- (0.01 seconds)
+ (0.02 seconds)
 
 Including Wadfile: /Program Files/J.A.C.K/halflife/zhlt.wad
- - Contains 1 used texture, 14.29 percent of map (19 textures in wad)
+ - Contains 1 used texture, 8.33 percent of map (19 textures in wad)
 Using Wadfile: /Program Files (x86)/Steam/steamapps/common/Half-Life/throwdown_hl/throwdown.wad
- - Contains 6 used textures, 85.71 percent of map (14 textures in wad)
+ - Contains 11 used textures, 91.67 percent of map (15 textures in wad)
 
 Wad files required to run the map: "throwdown.wad;"
-Texture usage is at 0.11 mb (of 32.00 mb MAX)
-0.02 seconds elapsed
+Texture usage is at 0.09 mb (of 32.00 mb MAX)
+0.05 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -97,42 +97,42 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 75 (0.00 seconds)
+SolidBSP [hull 0] 100 (0.00 seconds)
 BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0.prt'
-SolidBSP [hull 1] 74 (0.00 seconds)
-SolidBSP [hull 2] 73 (0.00 seconds)
-SolidBSP [hull 3] 81 (0.01 seconds)
-Reduced 92 clipnodes to 92
-Reduced 26 texinfos to 26
-Reduced 7 texdatas to 7 (1424 bytes to 1424)
-Reduced 324 planes to 99
+SolidBSP [hull 1] 108 (0.02 seconds)
+SolidBSP [hull 2] 100 (0.00 seconds)
+SolidBSP [hull 3] 108 (0.02 seconds)
+Reduced 133 clipnodes to 133
+Reduced 36 texinfos to 36
+Reduced 12 texdatas to 12 (1644 bytes to 1644)
+Reduced 400 planes to 122
 FixBrinks:
-Increased 92 clipnodes to 92.
+Increased 133 clipnodes to 133.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models              1/512           64/32768    ( 0.2%)
-planes             99/32768       1980/655360   ( 0.3%)
-vertexes          150/65535       1800/786420   ( 0.2%)
-nodes              63/32767       1512/786408   ( 0.2%)
-texinfos           26/32767       1040/1310680  ( 0.1%)
-faces             117/65535       2340/1310700  ( 0.2%)
-* worldfaces      117/32768          0/0        ( 0.4%)
-clipnodes          92/32767        736/262136   ( 0.3%)
-leaves             31/32760        868/917280   ( 0.1%)
-* worldleaves      30/8192           0/0        ( 0.4%)
-marksurfaces      174/65535        348/131070   ( 0.3%)
-surfedges         572/512000      2288/2048000  ( 0.1%)
-edges             318/256000      1272/1024000  ( 0.1%)
-texdata          [variable]       1424/33554432 ( 0.0%)
+planes            122/32768       2440/655360   ( 0.4%)
+vertexes          162/65535       1944/786420   ( 0.2%)
+nodes              71/32767       1704/786408   ( 0.2%)
+texinfos           36/32767       1440/1310680  ( 0.1%)
+faces             123/65535       2460/1310700  ( 0.2%)
+* worldfaces      123/32768          0/0        ( 0.4%)
+clipnodes         133/32767       1064/262136   ( 0.4%)
+leaves             35/32760        980/917280   ( 0.1%)
+* worldleaves      34/8192           0/0        ( 0.4%)
+marksurfaces      171/65535        342/131070   ( 0.3%)
+surfedges         609/512000      2436/2048000  ( 0.1%)
+edges             334/256000      1336/1024000  ( 0.1%)
+texdata          [variable]       1644/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]        584/2097152  ( 0.0%)
+entdata          [variable]        600/2097152  ( 0.0%)
 * AllocBlock        1/64             0/0        ( 1.6%)
-7 textures referenced
-=== Total BSP file data space used: 16256 bytes ===
+12 textures referenced
+=== Total BSP file data space used: 18454 bytes ===
 Wad files required to run the map: "throwdown.wad;"
-0.12 seconds elapsed
+0.06 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -146,8 +146,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0" 
 Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0" -low 
-  30 portalleafs
-  61 numportals
+  34 portalleafs
+  66 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -171,7 +171,7 @@ BasePortalVis:
 LeafThread:
  (0.00 seconds)
 average leafs visible: 15
-g_visdatasize:112  compressed from 120
+g_visdatasize:182  compressed from 170
 0.02 seconds elapsed
 
 -----   END   hlvis -----
@@ -255,28 +255,28 @@ wall bleeding fix    [                on ] [                on ]
 
 Load Textures:
 Using Wadfile: C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0.wa_
-7 textures referenced
+12 textures referenced
 Reading texlights from 'C:\Program Files\J.A.C.K\halflife\lights.rad'
 0 opaque models
 0 opaque faces
-117 faces
-Create Patches : 583 base patches
-3821 square feet [550237.00 square inches]
+123 faces
+Create Patches : 370 base patches
+6362 square feet [916189.00 square inches]
 2 direct lights and 16386 fast direct lights
 1 light styles
 
 FindFacePositions:
  (0.02 seconds)
 BuildFacelights:
- (0.23 seconds)
+ (0.14 seconds)
 BuildVisLeafs:
- (0.01 seconds)
-visibility matrix   :   0.1 megs
+ (0.00 seconds)
+visibility matrix   :   0.0 megs
 MakeScales:
- (0.01 seconds)
-Transfer Lists :      168539 :   168.54k transfers
-       Indices :       34096 :    33.30k bytes
-          Data :      338827 :   330.89k bytes
+ (0.00 seconds)
+Transfer Lists :       41619 :    41.62k transfers
+       Indices :       18992 :    18.55k bytes
+          Data :       84348 :    82.37k bytes
 Bounce 1 GatherLight:
  (0.00 seconds)
 Bounce 2 GatherLight:
@@ -296,10 +296,10 @@ Bounce 8 GatherLight:
 CreateTriangulations:
  (0.00 seconds)
 AddPatchLights:
- (0.05 seconds)
+ (0.01 seconds)
 FinalLightFace:
  (0.00 seconds)
-0.42 seconds elapsed
+0.28 seconds elapsed
 
 -----   END   hlrad -----
 
