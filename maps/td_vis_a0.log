@@ -97,10 +97,10 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 152 (0.00 seconds)
+SolidBSP [hull 0] 150 (0.01 seconds)
 BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0.prt'
-SolidBSP [hull 1] 108 (0.01 seconds)
-SolidBSP [hull 2] 96 (0.00 seconds)
+SolidBSP [hull 1] 108 (0.00 seconds)
+SolidBSP [hull 2] 96 (0.01 seconds)
 SolidBSP [hull 3] 110 (0.01 seconds)
 Reduced 217 clipnodes to 215
 Reduced 43 texinfos to 43
@@ -113,26 +113,26 @@ Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models              2/512          128/32768    ( 0.4%)
 planes            178/32768       3560/655360   ( 0.5%)
-vertexes          398/65535       4776/786420   ( 0.6%)
-nodes             147/32767       3528/786408   ( 0.4%)
+vertexes          400/65535       4800/786420   ( 0.6%)
+nodes             149/32767       3576/786408   ( 0.5%)
 texinfos           43/32767       1720/1310680  ( 0.1%)
 faces             237/65535       4740/1310700  ( 0.4%)
 * worldfaces      215/32768          0/0        ( 0.7%)
 clipnodes         215/32767       1720/262136   ( 0.7%)
 leaves             77/32760       2156/917280   ( 0.2%)
-* worldleaves      53/8192           0/0        ( 0.6%)
-marksurfaces      285/65535        570/131070   ( 0.4%)
-surfedges        1209/512000      4836/2048000  ( 0.2%)
-edges             686/256000      2744/1024000  ( 0.3%)
+* worldleaves      52/8192           0/0        ( 0.6%)
+marksurfaces      279/65535        558/131070   ( 0.4%)
+surfedges        1212/512000      4848/2048000  ( 0.2%)
+edges             688/256000      2752/1024000  ( 0.3%)
 texdata          [variable]       1644/33554432 ( 0.0%)
 lightdata        [variable]          0/50331648 ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
 entdata          [variable]       1570/2097152  ( 0.1%)
 * AllocBlock        1/64             0/0        ( 1.6%)
 12 textures referenced
-=== Total BSP file data space used: 33692 bytes ===
+=== Total BSP file data space used: 33772 bytes ===
 Wad files required to run the map: "throwdown.wad;"
-0.14 seconds elapsed
+0.16 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -146,8 +146,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: "C:/Program Files/J.A.C.K./halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0" 
 Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\throwdown_hl\maps\td_vis_a0" -low 
-  53 portalleafs
- 128 numportals
+  52 portalleafs
+ 119 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -167,12 +167,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.01 seconds)
-LeafThread:
  (0.00 seconds)
+LeafThread:
+ (0.01 seconds)
 average leafs visible: 30
-g_visdatasize:382  compressed from 371
-0.02 seconds elapsed
+g_visdatasize:380  compressed from 364
+0.03 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -268,15 +268,15 @@ Create Patches : 518 base patches
 FindFacePositions:
  (0.02 seconds)
 BuildFacelights:
- (0.17 seconds)
+ (0.20 seconds)
 BuildVisLeafs:
- (0.00 seconds)
+ (0.01 seconds)
 visibility matrix   :   0.0 megs
 MakeScales:
- (0.02 seconds)
-Transfer Lists :       61106 :    61.11k transfers
-       Indices :       34452 :    33.64k bytes
-          Data :      123766 :   120.87k bytes
+ (0.01 seconds)
+Transfer Lists :       60903 :    60.90k transfers
+       Indices :       34376 :    33.57k bytes
+          Data :      123360 :   120.47k bytes
 Bounce 1 GatherLight:
  (0.00 seconds)
 Bounce 2 GatherLight:
@@ -294,12 +294,12 @@ Bounce 7 GatherLight:
 Bounce 8 GatherLight:
  (0.00 seconds)
 CreateTriangulations:
- (0.01 seconds)
+ (0.00 seconds)
 AddPatchLights:
- (0.01 seconds)
+ (0.02 seconds)
 FinalLightFace:
  (0.00 seconds)
-0.31 seconds elapsed
+0.35 seconds elapsed
 
 -----   END   hlrad -----
 
